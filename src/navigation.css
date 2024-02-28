@@ -1,0 +1,46 @@
+.nav-main {
+    background-color: #333;
+  }
+  
+  .nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .nav-li1,
+  .nav-li2,
+  .nav-li3,
+  .nav-li4,
+  .nav-li5,
+  .nav-li6 {
+    float: left;
+  }
+  
+  .nav-li1 a,
+  .nav-li2 a,
+  .nav-li3 a,
+  .nav-li4 a,
+  .nav-li5 a,
+  .nav-li6 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-li1:hover,
+  .nav-li2:hover,
+  .nav-li3:hover,
+  .nav-li4:hover,
+  .nav-li5:hover {
+    background-color: #555;
+  }
+  
+  .nav-li6 {
+    cursor: pointer;
+    float: right;
+  }
+  
