@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #111116;
+  --primary-text-color: #f78b8c;
+  --secondary-text-color: #a2a2b5;
+  --size-small: .5rem;
+  --size-default: 1rem;
+  --size-medium: 1.5rem;
+  --size-large: 2rem;
+}
+
+html body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+}
+
+h3 {
+  font-size: var(--size-medium);
+}
+
+h3, h5 {
+  color: var(--primary-text-color);
+}
+
+span {
+  color: var(--secondary-text-color);
+}

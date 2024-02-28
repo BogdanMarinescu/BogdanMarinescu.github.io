@@ -1,0 +1,44 @@
+.main{
+    padding: var(--size-small);
+    margin: 0 100px;
+}
+
+.movie {
+    display: inline-block;
+}
+
+
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.movie__footer {
+    margin: 0;
+}
+
+.movie__title {
+    margin-top: var(--size-small);
+}
+
+.movie__year::after, .movie__description::after {
+content: "\00B7";
+margin: 0 var(--size-small);
+}
+
+.movie__bookmark {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: hsla(0, 50%, 0%, 0.5);
+    border-radius: 50%;
+}
+
+.movie__image-container {
+position: relative;
+}
